@@ -1,4 +1,6 @@
 # Site settings
+destination: ./_site
+server_port: 4000
 title: Herr Ackermann Yuriy
 email: ackermann.yuriy@gmail.com
 description: "Ackermann Yuriy personal webpage."
