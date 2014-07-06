@@ -1,5 +1,11 @@
-###Licensce:
+##herrniemand.github.io
+=====
+This repo is personal website of Ackermann Yuriy
 
+Theme from:
+https://github.com/the-development/flex
+###Licensce:
+=====
 ####Content:
 Any content in _pages and _posts is under 
 CC BY-NC-SA(Attribution-NonCommercial-ShareAlike)
