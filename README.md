@@ -1,5 +1,4 @@
 ##herrniemand.github.io
-=====
 This repo is personal website of Ackermann Yuriy
 
 Theme from:
@@ -11,7 +10,7 @@ Any content in _pages and _posts is under
 CC BY-NC-SA(Attribution-NonCommercial-ShareAlike)
 <img src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png"/>
 
-###Code:
+####Code:
 The MIT License (MIT)
 
 Copyright (c) 2013-2014 Jeff Martin
