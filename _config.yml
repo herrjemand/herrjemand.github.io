@@ -1,7 +1,7 @@
 
 # Site settings
 destination: ./_site
-title: Herr Ackermann Yuriy
+title: Ackermann Yuriy
 email: ackermann.yuriy@gmail.com
 description: "Ackermann Yuriy personal webpage."
 baseurl: ""
