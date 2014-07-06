@@ -3,7 +3,7 @@
   <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Ackermann Yuriy - {{ page.title }}</title>
+      <title>Herr Ackermann Yuriy - {{ page.title }}</title>
       <meta name="viewport" content="width=device-width">
 
       <!-- syntax highlighting CSS -->
@@ -31,8 +31,7 @@
             {% for post in site.posts %}
               <li class="post-link">
                 <a class="post-title" href="{{ post.url }}">
-                  <span class="post-date">{{ post.date | date_to_string }}</span>
-                  {{ post.title }}
+                  <span class="post-date">{{ post.date | date_to_string }} : {{ post.title | upcase }}</span>
                 </a>
               </li>
             {% endfor %}
