@@ -1,7 +1,9 @@
 <div class="footer">
   <span id="footer-links">
 
-    	<a href="" class="footer-link">About</a> •
+  	{%	if site.email	%}
+			<a href="mailto:{{ site.email }}" class="footer-link">Email</a> •
+    {% endif %}
 
     {% if site.github_username %}
     	<a href="https://github.com/{{ site.github_username }}" class="footer-link">GitHub</a> •
