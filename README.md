@@ -6,9 +6,10 @@ https://github.com/the-development/flex
 ###Licensce:
 =====
 ####Content:
-All content in _pages and _posts is under 
+All content in _pages, _posts, is under 
 CC BY-NC-SA(Attribution-NonCommercial-ShareAlike)
 <img src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png"/>
+Content in images is copyright protected and not allowed for reuse or copying. I will not try to be badass holywood copyrighter, but you will gain a bad karma.*)
 
 ####Code:
 The MIT License (MIT)
