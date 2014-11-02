@@ -1,7 +1,7 @@
 ---
 layout 		:	post
 title 		:	Рассуждения о... ООП...
-cover 		:	do.ru.gif
+cover 		:	DRnw4.gif
 date   		:	2014-11-02 23:11:34
 align 		:
 categories	:	posts
