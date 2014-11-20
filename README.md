@@ -1,4 +1,4 @@
-##herrniemand.github.io
+##herrniemand.github.io / nieman.de
 This repo is personal website of Ackermann Yuriy
 
 Theme from:
