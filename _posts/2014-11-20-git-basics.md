@@ -41,31 +41,6 @@ Before we will start with git you will need to be introduced to the basics of `U
 
 Lets create new folder, call it gitbeg: `mkdir gitbeg`
 
-## Repository status aka `git status`
-
-`git status` command return status of the repository, that include changes, branch, added/no-added files etc. Example of `git status` message:
-
-```
- On branch master
- Changes to be committed:
- (use "git reset HEAD <file>..." to unstage)
-
-    modified: hello.py
-
- Changes not staged for commit:
- (use "git add <file>..." to update what will be committed)
- (use "git checkout -- <file>..." to discard changes in working directory)
-
-    modified: main.py
-
- Untracked files:
- (use "git add <file>..." to include in what will be committed)
-    hello.pyc
-```
-
-You will need to remember `git status` command, as we are going to use it a lot.
-
-
 ## Initializing git aka `git init`
 
 First let see what git says about **empty** folder by using `git status`.
@@ -96,9 +71,35 @@ Initialized empty Git repository in /home/niemand/gitbeg/.git/.
 
 P.S. `.git` is a hidden folder used by git to repository history.
 
+## Repository status aka `git status`
+
+`git status` command return status of the repository, that include changes, branch, added/no-added files etc. Example of `git status` message:
+
+```
+ On branch master
+ Changes to be committed:
+ (use "git reset HEAD <file>..." to unstage)
+
+    modified: hello.py
+
+ Changes not staged for commit:
+ (use "git add <file>..." to update what will be committed)
+ (use "git checkout -- <file>..." to discard changes in working directory)
+
+    modified: main.py
+
+ Untracked files:
+ (use "git add <file>..." to include in what will be committed)
+    hello.pyc
+```
+
+You will need to remember `git status` command, as we are going to use it a lot.
+
 ## Staging files for recording changes aka `git add`
 
-There couple of things you need to understand about *git*. One of them is staging files. Git does not stage your files for changes, unless you add them by using `git add`. For example. Lets create new file.
+There couple of things you need to understand about *git*. One of them is staging files. Git does not stage your files for changes, unless you add them by using `git add`. For example: 
+
+Lets create new file:
 
 ```shell
 $ touch example.js
