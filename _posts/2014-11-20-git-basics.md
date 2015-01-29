@@ -1,6 +1,6 @@
 ---
 layout 		:	post
-title 		:	Git. Basics.
+title 		:	Git Basics.
 cover 		:   yes-github-yissssss.gif
 date   		:	2014-11-24 09:15:00
 align 		:
@@ -45,20 +45,20 @@ Lets create new folder, call it gitbeg: `mkdir gitbeg`
 
 First let see what git says about **empty** folder by using `git status`.
 
-```shell
+```bash
 $ git status
 fatal: Not a git repository (or any parent up to mount point /home/niemand) 
 ```
 
 To initialize git in the folder we need to navigate inside it
 
-```shell
+```bash
 $ cd gitbeg
 ```
 
 and initialize git in it.
 
-```shell
+```bash
 $ git init
 ```
 
@@ -101,13 +101,13 @@ There couple of things you need to understand about *git*. One of them is stagin
 
 Lets create new file:
 
-```shell
+```bash
 $ touch example.js
 ```
 
 If we do git status now:
 
-```shell
+```bash
 $ git status
 On branch master
 
@@ -123,13 +123,13 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 Git sees that the is new file, but not recording changes. So lets add it to git:
 
-```shell
+```bash
 $ git add example.js
 ```
 
 and check status:
 
-```shell
+```bash
 $ git status
 On branch master
 
@@ -143,19 +143,19 @@ So here we go. We have added file to git.
 
 You can add multiple files to git by:
 
-```shell 
+```bash 
 git add file1 file2 file3 ... filen
 ```
 
 or folders of files.
 
-```shell
+```bash
 git add folder1 folder2 folder3 ... foldern
 ```
 
 or add it self
 
-```shell
+```bash
 git add .
 ```
 
@@ -171,7 +171,7 @@ console.log("Hello World!");
 
 Lets check our repo:
 
-```
+```bash
 $ git status
 On branch master
 
@@ -188,11 +188,11 @@ Actually git lie at `Changes not staged for commit:`. The problem that file were
 
 > A **commit** is a single record of a changes in code.
 
-```
+```bash
 $ git commit -m "Message" file
 ```
 
-```shell
+```bash
 $ git commit -m "My first commit! Created example.js" example.js
 [master (root-commit) 0fe9521] My first commit! Created example.js.
  1 file changed, 1 insertion(+)
@@ -201,7 +201,7 @@ $ git commit -m "My first commit! Created example.js" example.js
 
 We've just made our first commit! Lets check the status:
 
-```shell
+```bash
 $ git status
 On branch master
 nothing to commit, working directory clean
@@ -209,7 +209,7 @@ nothing to commit, working directory clean
 
 You thinking *"what the?"*, but the message simply says *"No changes been made, so there is nothing to commit."*. So lets go and check our history with `git log`:
 
-```
+```bash
 $ git log
 commit 0fe9521be422851c29f65b23db2930294b4766de
 Author: Ackermann Yuriy <ackermann.yuriy@gmail.com>
@@ -228,7 +228,7 @@ console.log("Hello Alice!");
 
 And now lets commit:
 
-```
+```bash
 $ git commit -m "Changed World to Alice." example.js 
 [master 323232c] Changed World to Alice.
  1 file changed, 1 insertion(+), 1 deletion(-)
@@ -236,7 +236,7 @@ $ git commit -m "Changed World to Alice." example.js
 
 And check history:
 
-```
+```bash
 $ git log
 commit 323232c96bece436201b4af82666ea0f31669187
 Author: Ackermann Yuriy <ackermann.yuriy@gmail.com>
@@ -260,13 +260,13 @@ If you have situation when you changed more then one file, and you want to commi
 
 First the `selective` method:
 
-```
+```bash
 $ git commit -m "Message" file1 file2 ... filen
 ```
 
 or `all` method:
 
-```
+```bash
 $ git commit -am "Message"
 
 ```
@@ -289,7 +289,7 @@ To uncommit changes we do `git reset --soft HEAD~N` where `N` is how many head y
 
 So lets *soft* reset our commit:
 
-```
+```bash
 $ git reset --soft HEAD~1
 $ git status
 Changes to be committed:
@@ -299,7 +299,7 @@ Changes to be committed:
 
 So we still have changes, but if check `git log`:
 
-```
+```bash
 $ git log
 commit 0fe9521be422851c29f65b23db2930294b4766de
 Author: Ackermann Yuriy <ackermann.yuriy@gmail.com>
@@ -316,7 +316,7 @@ There is only one commit
 
 Hard reset fully resets commits without saving any changes, *chop the heads off*. It's useful when you need to rewrite code from scratch:
 
-```
+```bash
 $ git reset --hard HEAD~1
 HEAD is now at 0fe9521 My first commit! Created example.js.
 
