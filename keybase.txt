@@ -6,17 +6,18 @@ I hereby claim:
 
   * I am an admin of http://nieman.de
   * I am niemand (https://keybase.io/niemand) on keybase.
-  * I have a public key with fingerprint B140 D3A2 5B0F BB60 5BDD  5A15 A590 46EC 30B0 584F
+  * I have a public key with fingerprint 3976 CF4E 0153 0F41 4EE4  59C2 3BDE 7100 9D22 0C16
 
 To do so, I am signing this object:
 
 {
     "body": {
         "key": {
-            "fingerprint": "b140d3a25b0fbb605bdd5a15a59046ec30b0584f",
+            "eldest_kid": "0101a6211dedc1400a1fa2e6109f4023f61d9e0f142f9c8b29b80481fb5b2b4e9a260a",
+            "fingerprint": "3976cf4e01530f414ee459c23bde71009d220c16",
             "host": "keybase.io",
-            "key_id": "a59046ec30b0584f",
-            "kid": "010185aa7f634f81a6d854fb00c3098e897d68da6f19b7219de08cc213dfd8b3a9d70a",
+            "key_id": "3bde71009d220c16",
+            "kid": "0101a6211dedc1400a1fa2e6109f4023f61d9e0f142f9c8b29b80481fb5b2b4e9a260a",
             "uid": "ae0043696e974247a5078c0727405319",
             "username": "niemand"
         },
@@ -27,36 +28,41 @@ To do so, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1432806359,
+    "ctime": 1443782101,
     "expire_in": 157680000,
-    "prev": "18f6150cb1c38230b06b75448df7eb9fadb5a4a0fddfa09e9d8cf1866fc58d7d",
-    "seqno": 2,
+    "prev": "17888c9be33ae6e61219ee8b33cf9e7c74a88cca78203d21a1d15829b1396c92",
+    "seqno": 11,
     "tag": "signature"
 }
 
 which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.0.8
-Comment: https://keybase.io/crypto
+Version: GnuPG v1
 
-yMIZAnicbZJZSFVBGMevXS0TlAqCorA47XaJOfecOWfOzYiCjApaaHtouc2cmbn3
-YJ1zu4tLUmGgGaW9tKgQRdFGkC/SRpa22jW0hRDErLSFRKlMJImgOS0PQfMyzH9+
-//8338fcy/R6MlKyvF0fjuVc7kxpacpNeNbznvYSiTi0WAqUSPns18YtO8Sikahl
-x6WARGQVUAX7IQGcEA1AQinEMsTQAKrGTAUQAJHKJZ8UdmKuQ8QQHGPzLEdo4hC0
-qFD/w+f/ugAykBHEWOeaonIkY40iqHICgGANxJChUw1RrHHZILpfNigDyDT9skI5
-RUTBBtUBFnGJ33UYAKqiGRozdNWv6hgCHZlA9+sqgIpsuGCMRW28gwnattgObFNp
-t08SYoFlMncCbiP/APMoE75I1Ik7prNdyOF4PBJwXfHiiIsVMhL8ExAklk3FCIWh
-gEVjlmNLAVmQZtxyE2VV8SOgKdDwSawoYkVZ0HIJqGsIiOWWYQUiUkZckyEwiWwq
-yO+OTSM6VFVEuc6IwTElEKsYcEo5BgYzKDK5jDSNmxBRnUpuSzttRwr4xTNxSETG
-rJCN44kok3bfadyc6knJ8IxMG+F+Ak/G6DF/v8anw+meW8VZCd+zgcm1a7aN4GkL
-SpX6jrppanb3g7xvyzdcTD/0IzPlds3VA0P7k1NCzR39KzZuApMvdH/p3Tix68xb
-+11Dw8qgcbpt77FZjWuHPycfTX0h3agJp8M3+qSiwIns5WWJUy3Vr5rLj447uSz+
-3ZfX9bJmsKdvTpMzkLnsyZGds/TC3rtPz1X0XTkfHmvdbIZo4biK2r7K8XlDc4+f
-bx88Bb1zaZq3K5nbvjbHWnp5Sk1Ouby1cF/r/NYbExadrQqMHc7qjxxcVWrcelA/
-anrn9arHg4vXlfL3l7aUsdepyVjltbqG4bY9/bvg7OqHH2d8cyJf7wd9RRNWrC4/
-PHNVxfMlPwFRICui
-=sP4n
+owGtkmtMFFcYhndXIZV2ETEYkIsw0hAK6Dkzs3NZKJE18dbSpg3QmrLdzuUMDLCz
+6+4s12BobEy0mPQHAsaKpWpBTUtb3WK1QRoimmARajWxtrUpgoWuGEBBIcWeIe2P
+Jv3Z8+fkfHnf5/u+N+cD6zKTxZxy8utLaXGC2zwwLpqKIp0TdYTokWsIex1RjpYu
+VCEjv+4qV2XCTgAIoMCQEMpIliANgAAVgUQMBLxCA5JSGCjzCCiQJhVe4kSSFzlA
+c1ARbSIp0ogXSAYIRCahqFoJ8nl9qqZjLMWzjKTQCEAbBRQa0gjRNl4iKVFGLASA
+l0kSSJDBxlKP33Dg4UTBjzaoHlzDD9fSeP+h/5/nDizhBAQATTE8g3iWJmlWsAGW
+kwBLsjSwUZA3hH7k0wQ3wmpNRW5Bk4n6TAIXK1UJGbkai/xLsEFG2Of1eXSP5KnA
+5VJd99oNl17jNWRVSHT9DXCJqibjCLGhEvn8qkcj7BArJV01iJCmKZYj8dKZBKr2
+qj7kUg2FjWU4gI/RBlViJGQ5jpN4EVGUUIAYHAgJeYQ4kaIkhUesxNICFkgCpgFK
+JqEAZWjjcDyQ4hmJJwljp12aB8NxL10owVC/WqIJesCHiPqIfZaE5SazxRQeZjF+
+lyliRdQ/Xy6zYeXii4x567vb/eDC/h35bziYiLTWz5/s/Sa7mhoaeSHU47budm65
+ubDsUdKHzUcDMw9GUlcd75647awb/9Z6pOlIXO6ahOT3nn//IRgeTHZuD26b7Kyd
+Hamobr05l/ro2FBLWDB508asWAec6Yuha29tauw5sG7F4Pm03GeGx34eMZf685WO
+niuz0Pt21p1A4+OMd07OhPpiroZO7HQcao18cPW59gHJ/Okr1qGMa/3pzKEC6uGe
+xIO//am/2Xv35ZSukGWsIt2yGIxbLDVn+Jrmsq+E+a93zTd1vj4eNRt4mrSnpa7q
+VTWn2TkRezdwwf39qfVdOdOJOz6Td/dbysqnb0y2RzCXL479OGqbcllcKOGes+Pj
+haJgl31l3NiT5Zetjl3xWvhkleiOvWj78sY9b+65a47TU4OvfQf6n11zS43Na6yx
+pjw9/1L14ehR0HVYLPhiPvFEesoPk5eCxTl7vzpV2FvsLo7O63BmS6GYyPv+dfuS
+CzejM8MpbIAjWrvb1jpqy4u2CPejSga0tX3rdxZOHewt2y8eqI/85HT+JFG02rcQ
+2uq7ntD5U3RBc0HxFlOevWk6Y1w5Z/oIHM/j4yPjikYzU/lBeWNbWQP11i/Tv4fF
+bJ4xCWdvt8RH/dGWJTDhzT3bykeSzmaVkkfvhFL1OW2+eyILnvm14fHqY2Gr2hUy
++Bc=
+=cpiq
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
@@ -65,4 +71,3 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/niemand
 
 ==================================================================
-
