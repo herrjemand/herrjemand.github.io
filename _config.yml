@@ -12,5 +12,5 @@ deviantart_username: hrniemand
 
 # Build settings
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 permalink: pretty
