@@ -10,7 +10,5 @@ twitter_username:
 github_username:  herrniemand
 deviantart_username: hrniemand
 
-# Build settings
-markdown: redcarpet
 # highlighter: pygments
 permalink: pretty
