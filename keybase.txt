@@ -4,7 +4,7 @@ https://keybase.io/niemand
 
 I hereby claim:
 
-  * I am an admin of http://nieman.de
+  * I am an admin of https://nieman.de
   * I am niemand (https://keybase.io/niemand) on keybase.
   * I have a public key with fingerprint 3976 CF4E 0153 0F41 4EE4  59C2 3BDE 7100 9D22 0C16
 
@@ -21,17 +21,22 @@ To do so, I am signing this object:
             "uid": "ae0043696e974247a5078c0727405319",
             "username": "niemand"
         },
+        "revoke": {
+            "sig_ids": [
+                "b0818811f1882340a2c8d2f712715a42f9f8d0d5688689b8da9e194f801403b00f"
+            ]
+        },
         "service": {
             "hostname": "nieman.de",
-            "protocol": "http:"
+            "protocol": "https:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1443782101,
+    "ctime": 1455790302,
     "expire_in": 157680000,
-    "prev": "17888c9be33ae6e61219ee8b33cf9e7c74a88cca78203d21a1d15829b1396c92",
-    "seqno": 11,
+    "prev": "b2eead125d136d3128c2da8b8f7bab3dd3fefadf82369c26810e97c7ba9edd5d",
+    "seqno": 13,
     "tag": "signature"
 }
 
@@ -40,29 +45,30 @@ which yields the signature:
 -----BEGIN PGP MESSAGE-----
 Version: GnuPG v1
 
-owGtkmtMFFcYhndXIZV2ETEYkIsw0hAK6Dkzs3NZKJE18dbSpg3QmrLdzuUMDLCz
-6+4s12BobEy0mPQHAsaKpWpBTUtb3WK1QRoimmARajWxtrUpgoWuGEBBIcWeIe2P
-Jv3Z8+fkfHnf5/u+N+cD6zKTxZxy8utLaXGC2zwwLpqKIp0TdYTokWsIex1RjpYu
-VCEjv+4qV2XCTgAIoMCQEMpIliANgAAVgUQMBLxCA5JSGCjzCCiQJhVe4kSSFzlA
-c1ARbSIp0ogXSAYIRCahqFoJ8nl9qqZjLMWzjKTQCEAbBRQa0gjRNl4iKVFGLASA
-l0kSSJDBxlKP33Dg4UTBjzaoHlzDD9fSeP+h/5/nDizhBAQATTE8g3iWJmlWsAGW
-kwBLsjSwUZA3hH7k0wQ3wmpNRW5Bk4n6TAIXK1UJGbkai/xLsEFG2Of1eXSP5KnA
-5VJd99oNl17jNWRVSHT9DXCJqibjCLGhEvn8qkcj7BArJV01iJCmKZYj8dKZBKr2
-qj7kUg2FjWU4gI/RBlViJGQ5jpN4EVGUUIAYHAgJeYQ4kaIkhUesxNICFkgCpgFK
-JqEAZWjjcDyQ4hmJJwljp12aB8NxL10owVC/WqIJesCHiPqIfZaE5SazxRQeZjF+
-lyliRdQ/Xy6zYeXii4x567vb/eDC/h35bziYiLTWz5/s/Sa7mhoaeSHU47budm65
-ubDsUdKHzUcDMw9GUlcd75647awb/9Z6pOlIXO6ahOT3nn//IRgeTHZuD26b7Kyd
-Hamobr05l/ro2FBLWDB508asWAec6Yuha29tauw5sG7F4Pm03GeGx34eMZf685WO
-niuz0Pt21p1A4+OMd07OhPpiroZO7HQcao18cPW59gHJ/Okr1qGMa/3pzKEC6uGe
-xIO//am/2Xv35ZSukGWsIt2yGIxbLDVn+Jrmsq+E+a93zTd1vj4eNRt4mrSnpa7q
-VTWn2TkRezdwwf39qfVdOdOJOz6Td/dbysqnb0y2RzCXL479OGqbcllcKOGes+Pj
-haJgl31l3NiT5Zetjl3xWvhkleiOvWj78sY9b+65a47TU4OvfQf6n11zS43Na6yx
-pjw9/1L14ehR0HVYLPhiPvFEesoPk5eCxTl7vzpV2FvsLo7O63BmS6GYyPv+dfuS
-CzejM8MpbIAjWrvb1jpqy4u2CPejSga0tX3rdxZOHewt2y8eqI/85HT+JFG02rcQ
-2uq7ntD5U3RBc0HxFlOevWk6Y1w5Z/oIHM/j4yPjikYzU/lBeWNbWQP11i/Tv4fF
-bJ4xCWdvt8RH/dGWJTDhzT3bykeSzmaVkkfvhFL1OW2+eyILnvm14fHqY2Gr2hUy
-+Bc=
-=cpiq
+owGtkn1MlVUcxy8XxCAiWmUjRPIBtZDgnOf9QV4WA1GpbqgxBfH2PM85Dz683Hu5
+9/I2sjY0XzAbRLYYbQgBaUoKyjvB1rixyVgiBhHgRtqmFQt5aVpQncvqj7b+7Pxx
+zs4539/n9/39zql4zNNg9Nh4vsu1JVDO8xi6pxjSXNWGUkqxohIqupTKwasLzkXY
+4TTn6IiKpgAEUOZpCBFGKmQBkKEm05iHQNJYQDMaD5GEgQZZWpNUUaElRQSsCDWF
+U2iFxZJM80CmIihNt2Rhu82uW5wEy0gCr2osBpBjgMZCFmOWk1SaURAWIAASommg
+Qp4EHrI63BHEnCI7cKRuJWdkY1619x/6/9l3wSpOxgCwDC/xWBJYmhVkDgiiCgRa
+YAHHQMktdGC7Rc7DRG3RcZ5sQdThCMqOC6052N1Wh55FPDuo6AxKASIURQg1MtMM
+C2RaFRGtCZAWICe7HWkiAojjRZEXiTEkSxhKrCYCUgmjAKBRmYRNEhbq6irc3aR/
+JY9EmHiy2a1Oq2rNJceHnE6bI9ptyVlic+uKcIti/hthVnQLIg9EQgqx3aFbLVQ0
+JFLVqbuZkOU4QQIMoCMoXGzT7disuxWcwIuADHciXEiYCo2xjCDNIcjwiIG0qNJI
+FhVRExRZYRBiNKzJSCNV8+S1eREC0lCVXEoYIQ5R7qLyLVbCZohROYswSd8ssrPA
+jqnDvieN670MHkaD9xqj++safH0C/vnPFecCDJeGL6x84qXCawkLb/dnjl7MavKZ
+qHG1FK7cDIvfuvxzfdfe4tHLL33gGup7s3PuWLi12ZD8I9NxdbHYWHfk0tpyaTq4
+pWH8bv+XeQ8T06qE8/3FbPeRT3uo/ovG06kmEFy2J5/aC19EIwdSlk97TWW/1f34
+e1Eh2+90Tkfusz2Z9mGobeBErRIzMjWZqXxc9VO8/4HA2plHzo6Nh4dRKebxqY98
+M7z9rtuDb5R93/ZKf9/L/sPGbjCN4nZli9M7np01HRvcHFrV+Uu+393R5ZAmR1zt
+YJxn1W997RPVIGBD6dLRibIbO15dak8NirwlhrdqO73W7TzzxcCVxZSz5b/WpL3x
+eu8TvbvmIkOXu8wvKNr9k63JU3qi2eA/f3DA13t/877557IHG77Z311X6WHxrnOB
+jtzeU3sah8tb1vj2NAckeg9ysqWtfEl7tyWlqIBx7l4pGumf2Rj0++2rj5aOpPc2
+Vm8Lacu4XZ4kvxY7Vrnp3DMT21vrb12/llA5/fDeU+3d5oLKBwPa1ufX11J0TNYP
+rcLst1uE78aDTo25TEnK5o5Z0+Tc7uSbvldS+973LrmwEPbZ5J+xa1cCIzac+bzV
+lPI1rk/exntOLtoKOgLvpzfckajxg1Gm2KLBwKN+o0nJFQE+62IaH7yT6vqjL6v0
++NOOmYSoTccX5tMH4pmepstfDc3WzP0F
+=vdFu
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
@@ -71,3 +77,4 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/niemand
 
 ==================================================================
+
