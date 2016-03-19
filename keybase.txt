@@ -1,0 +1,80 @@
+==================================================================
+https://keybase.io/niemand
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nieman.de
+  * I am niemand (https://keybase.io/niemand) on keybase.
+  * I have a public key with fingerprint 3976 CF4E 0153 0F41 4EE4  59C2 3BDE 7100 9D22 0C16
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101a6211dedc1400a1fa2e6109f4023f61d9e0f142f9c8b29b80481fb5b2b4e9a260a",
+            "fingerprint": "3976cf4e01530f414ee459c23bde71009d220c16",
+            "host": "keybase.io",
+            "key_id": "3bde71009d220c16",
+            "kid": "0101a6211dedc1400a1fa2e6109f4023f61d9e0f142f9c8b29b80481fb5b2b4e9a260a",
+            "uid": "ae0043696e974247a5078c0727405319",
+            "username": "niemand"
+        },
+        "revoke": {
+            "sig_ids": [
+                "b0818811f1882340a2c8d2f712715a42f9f8d0d5688689b8da9e194f801403b00f"
+            ]
+        },
+        "service": {
+            "hostname": "nieman.de",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1455790302,
+    "expire_in": 157680000,
+    "prev": "b2eead125d136d3128c2da8b8f7bab3dd3fefadf82369c26810e97c7ba9edd5d",
+    "seqno": 13,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtkn1MlVUcxy8XxCAiWmUjRPIBtZDgnOf9QV4WA1GpbqgxBfH2PM85Dz683Hu5
+9/I2sjY0XzAbRLYYbQgBaUoKyjvB1rixyVgiBhHgRtqmFQt5aVpQncvqj7b+7Pxx
+zs4539/n9/39zql4zNNg9Nh4vsu1JVDO8xi6pxjSXNWGUkqxohIqupTKwasLzkXY
+4TTn6IiKpgAEUOZpCBFGKmQBkKEm05iHQNJYQDMaD5GEgQZZWpNUUaElRQSsCDWF
+U2iFxZJM80CmIihNt2Rhu82uW5wEy0gCr2osBpBjgMZCFmOWk1SaURAWIAASommg
+Qp4EHrI63BHEnCI7cKRuJWdkY1619x/6/9l3wSpOxgCwDC/xWBJYmhVkDgiiCgRa
+YAHHQMktdGC7Rc7DRG3RcZ5sQdThCMqOC6052N1Wh55FPDuo6AxKASIURQg1MtMM
+C2RaFRGtCZAWICe7HWkiAojjRZEXiTEkSxhKrCYCUgmjAKBRmYRNEhbq6irc3aR/
+JY9EmHiy2a1Oq2rNJceHnE6bI9ptyVlic+uKcIti/hthVnQLIg9EQgqx3aFbLVQ0
+JFLVqbuZkOU4QQIMoCMoXGzT7disuxWcwIuADHciXEiYCo2xjCDNIcjwiIG0qNJI
+FhVRExRZYRBiNKzJSCNV8+S1eREC0lCVXEoYIQ5R7qLyLVbCZohROYswSd8ssrPA
+jqnDvieN670MHkaD9xqj++safH0C/vnPFecCDJeGL6x84qXCawkLb/dnjl7MavKZ
+qHG1FK7cDIvfuvxzfdfe4tHLL33gGup7s3PuWLi12ZD8I9NxdbHYWHfk0tpyaTq4
+pWH8bv+XeQ8T06qE8/3FbPeRT3uo/ovG06kmEFy2J5/aC19EIwdSlk97TWW/1f34
+e1Eh2+90Tkfusz2Z9mGobeBErRIzMjWZqXxc9VO8/4HA2plHzo6Nh4dRKebxqY98
+M7z9rtuDb5R93/ZKf9/L/sPGbjCN4nZli9M7np01HRvcHFrV+Uu+393R5ZAmR1zt
+YJxn1W997RPVIGBD6dLRibIbO15dak8NirwlhrdqO73W7TzzxcCVxZSz5b/WpL3x
+eu8TvbvmIkOXu8wvKNr9k63JU3qi2eA/f3DA13t/877557IHG77Z311X6WHxrnOB
+jtzeU3sah8tb1vj2NAckeg9ysqWtfEl7tyWlqIBx7l4pGumf2Rj0++2rj5aOpPc2
+Vm8Lacu4XZ4kvxY7Vrnp3DMT21vrb12/llA5/fDeU+3d5oLKBwPa1ufX11J0TNYP
+rcLst1uE78aDTo25TEnK5o5Z0+Tc7uSbvldS+973LrmwEPbZ5J+xa1cCIzac+bzV
+lPI1rk/exntOLtoKOgLvpzfckajxg1Gm2KLBwKN+o0nJFQE+62IaH7yT6vqjL6v0
++NOOmYSoTccX5tMH4pmepstfDc3WzP0F
+=vdFu
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/niemand
+
+==================================================================
+
