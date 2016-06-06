@@ -1,30 +1,23 @@
 ==================================================================
-https://keybase.io/niemand
+https://keybase.io/herrjemand
 --------------------------------------------------------------------
 
 I hereby claim:
 
   * I am an admin of https://nieman.de
-  * I am niemand (https://keybase.io/niemand) on keybase.
-  * I have a public key with fingerprint 3976 CF4E 0153 0F41 4EE4  59C2 3BDE 7100 9D22 0C16
+  * I am herrjemand (https://keybase.io/herrjemand) on keybase.
+  * I have a public key ASBG32fx3Au5E4a03NO6nCTZ33pmIGnrpEKexrk5sQ30JAo
 
 To do so, I am signing this object:
 
 {
     "body": {
         "key": {
-            "eldest_kid": "0101a6211dedc1400a1fa2e6109f4023f61d9e0f142f9c8b29b80481fb5b2b4e9a260a",
-            "fingerprint": "3976cf4e01530f414ee459c23bde71009d220c16",
+            "eldest_kid": "012046df67f1dc0bb91386b4dcd3ba9c24d9df7a662069eba4429ec6b939b10df4240a",
             "host": "keybase.io",
-            "key_id": "3bde71009d220c16",
-            "kid": "0101a6211dedc1400a1fa2e6109f4023f61d9e0f142f9c8b29b80481fb5b2b4e9a260a",
-            "uid": "ae0043696e974247a5078c0727405319",
-            "username": "niemand"
-        },
-        "revoke": {
-            "sig_ids": [
-                "b0818811f1882340a2c8d2f712715a42f9f8d0d5688689b8da9e194f801403b00f"
-            ]
+            "kid": "012046df67f1dc0bb91386b4dcd3ba9c24d9df7a662069eba4429ec6b939b10df4240a",
+            "uid": "1975ca1a2f044da342bbcf018046ca19",
+            "username": "herrjemand"
         },
         "service": {
             "hostname": "nieman.de",
@@ -33,48 +26,29 @@ To do so, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1455790302,
-    "expire_in": 157680000,
-    "prev": "b2eead125d136d3128c2da8b8f7bab3dd3fefadf82369c26810e97c7ba9edd5d",
-    "seqno": 13,
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1465178888,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1465178809,
+        "hash": "7408e3feac951921522a33642508d86d52b5016f53d61d2d7961667da9dc69db7ea676e147925e43d5b5181a6c500b5aba03e76a8b07ba11ff311e9c4ce038ad",
+        "seqno": 478200
+    },
+    "prev": "a880a167c2849cc9cd91e09d32bb2ed1125735aec427d0701eac464751d51db6",
+    "seqno": 9,
     "tag": "signature"
 }
 
 which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: GnuPG v1
-
-owGtkn1MlVUcxy8XxCAiWmUjRPIBtZDgnOf9QV4WA1GpbqgxBfH2PM85Dz683Hu5
-9/I2sjY0XzAbRLYYbQgBaUoKyjvB1rixyVgiBhHgRtqmFQt5aVpQncvqj7b+7Pxx
-zs4539/n9/39zql4zNNg9Nh4vsu1JVDO8xi6pxjSXNWGUkqxohIqupTKwasLzkXY
-4TTn6IiKpgAEUOZpCBFGKmQBkKEm05iHQNJYQDMaD5GEgQZZWpNUUaElRQSsCDWF
-U2iFxZJM80CmIihNt2Rhu82uW5wEy0gCr2osBpBjgMZCFmOWk1SaURAWIAASommg
-Qp4EHrI63BHEnCI7cKRuJWdkY1619x/6/9l3wSpOxgCwDC/xWBJYmhVkDgiiCgRa
-YAHHQMktdGC7Rc7DRG3RcZ5sQdThCMqOC6052N1Wh55FPDuo6AxKASIURQg1MtMM
-C2RaFRGtCZAWICe7HWkiAojjRZEXiTEkSxhKrCYCUgmjAKBRmYRNEhbq6irc3aR/
-JY9EmHiy2a1Oq2rNJceHnE6bI9ptyVlic+uKcIti/hthVnQLIg9EQgqx3aFbLVQ0
-JFLVqbuZkOU4QQIMoCMoXGzT7disuxWcwIuADHciXEiYCo2xjCDNIcjwiIG0qNJI
-FhVRExRZYRBiNKzJSCNV8+S1eREC0lCVXEoYIQ5R7qLyLVbCZohROYswSd8ssrPA
-jqnDvieN670MHkaD9xqj++safH0C/vnPFecCDJeGL6x84qXCawkLb/dnjl7MavKZ
-qHG1FK7cDIvfuvxzfdfe4tHLL33gGup7s3PuWLi12ZD8I9NxdbHYWHfk0tpyaTq4
-pWH8bv+XeQ8T06qE8/3FbPeRT3uo/ovG06kmEFy2J5/aC19EIwdSlk97TWW/1f34
-e1Eh2+90Tkfusz2Z9mGobeBErRIzMjWZqXxc9VO8/4HA2plHzo6Nh4dRKebxqY98
-M7z9rtuDb5R93/ZKf9/L/sPGbjCN4nZli9M7np01HRvcHFrV+Uu+393R5ZAmR1zt
-YJxn1W997RPVIGBD6dLRibIbO15dak8NirwlhrdqO73W7TzzxcCVxZSz5b/WpL3x
-eu8TvbvmIkOXu8wvKNr9k63JU3qi2eA/f3DA13t/877557IHG77Z311X6WHxrnOB
-jtzeU3sah8tb1vj2NAckeg9ysqWtfEl7tyWlqIBx7l4pGumf2Rj0++2rj5aOpPc2
-Vm8Lacu4XZ4kvxY7Vrnp3DMT21vrb12/llA5/fDeU+3d5oLKBwPa1ufX11J0TNYP
-rcLst1uE78aDTo25TEnK5o5Z0+Tc7uSbvldS+973LrmwEPbZ5J+xa1cCIzac+bzV
-lPI1rk/exntOLtoKOgLvpzfckajxg1Gm2KLBwKN+o0nJFQE+62IaH7yT6vqjL6v0
-+NOOmYSoTccX5tMH4pmepstfDc3WzP0F
-=vdFu
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgRt9n8dwLuROGtNzTupwk2d96ZiBp66RCnsa5ObEN9CQKp3BheWxvYWTFAvN7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNDZkZjY3ZjFkYzBiYjkxMzg2YjRkY2QzYmE5YzI0ZDlkZjdhNjYyMDY5ZWJhNDQyOWVjNmI5MzliMTBkZjQyNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNDZkZjY3ZjFkYzBiYjkxMzg2YjRkY2QzYmE5YzI0ZDlkZjdhNjYyMDY5ZWJhNDQyOWVjNmI5MzliMTBkZjQyNDBhIiwidWlkIjoiMTk3NWNhMWEyZjA0NGRhMzQyYmJjZjAxODA0NmNhMTkiLCJ1c2VybmFtZSI6ImhlcnJqZW1hbmQifSwic2VydmljZSI6eyJob3N0bmFtZSI6Im5pZW1hbi5kZSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE2In0sImN0aW1lIjoxNDY1MTc4ODg4LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NjUxNzg4MDksImhhc2giOiI3NDA4ZTNmZWFjOTUxOTIxNTIyYTMzNjQyNTA4ZDg2ZDUyYjUwMTZmNTNkNjFkMmQ3OTYxNjY3ZGE5ZGM2OWRiN2VhNjc2ZTE0NzkyNWU0M2Q1YjUxODFhNmM1MDBiNWFiYTAzZTc2YThiMDdiYTExZmYzMTFlOWM0Y2UwMzhhZCIsInNlcW5vIjo0NzgyMDB9LCJwcmV2IjoiYTg4MGExNjdjMjg0OWNjOWNkOTFlMDlkMzJiYjJlZDExMjU3MzVhZWM0MjdkMDcwMWVhYzQ2NDc1MWQ1MWRiNiIsInNlcW5vIjo5LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQBt/46Zgql0GSBqHNDXan75Z2byc+KaSb9JRXd0+hc4KsL/Y+IMQXO2sQRIciQ0LEnl62BE0AiHBqhbQWjqNkwioc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCACl49OewMKzP6Lh0yKNyqEqUtUeLpoeFkWI0z0eWmAfaN0YWfNAgKndmVyc2lvbgE=
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
-View my publicly-auditable identity here: https://keybase.io/niemand
+View my publicly-auditable identity here: https://keybase.io/herrjemand
 
 ==================================================================
-
