@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/herrjemand
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jeman.de
+  * I am herrjemand (https://keybase.io/herrjemand) on keybase.
+  * I have a public key ASBG32fx3Au5E4a03NO6nCTZ33pmIGnrpEKexrk5sQ30JAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012046df67f1dc0bb91386b4dcd3ba9c24d9df7a662069eba4429ec6b939b10df4240a",
+            "host": "keybase.io",
+            "kid": "012046df67f1dc0bb91386b4dcd3ba9c24d9df7a662069eba4429ec6b939b10df4240a",
+            "uid": "1975ca1a2f044da342bbcf018046ca19",
+            "username": "herrjemand"
+        },
+        "service": {
+            "hostname": "jeman.de",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1466857781,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1466857597,
+        "hash": "ba41e8e92ade7a4b0850a28f0f601e9227b77a9b421c7d76d0777365245ec666a6b1652dc007abe67777e2e1616335e346ed98b64be510261061f4e91a5e4bc6",
+        "seqno": 498481
+    },
+    "prev": "4735adfc0e81ee4bcb8f6cc7a6a5ef91e488e4b50d39f5deddbe93a624dbc864",
+    "seqno": 21,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgRt9n8dwLuROGtNzTupwk2d96ZiBp66RCnsa5ObEN9CQKp3BheWxvYWTFAvN7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNDZkZjY3ZjFkYzBiYjkxMzg2YjRkY2QzYmE5YzI0ZDlkZjdhNjYyMDY5ZWJhNDQyOWVjNmI5MzliMTBkZjQyNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNDZkZjY3ZjFkYzBiYjkxMzg2YjRkY2QzYmE5YzI0ZDlkZjdhNjYyMDY5ZWJhNDQyOWVjNmI5MzliMTBkZjQyNDBhIiwidWlkIjoiMTk3NWNhMWEyZjA0NGRhMzQyYmJjZjAxODA0NmNhMTkiLCJ1c2VybmFtZSI6ImhlcnJqZW1hbmQifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImplbWFuLmRlIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTYifSwiY3RpbWUiOjE0NjY4NTc3ODEsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ2Njg1NzU5NywiaGFzaCI6ImJhNDFlOGU5MmFkZTdhNGIwODUwYTI4ZjBmNjAxZTkyMjdiNzdhOWI0MjFjN2Q3NmQwNzc3MzY1MjQ1ZWM2NjZhNmIxNjUyZGMwMDdhYmU2Nzc3N2UyZTE2MTYzMzVlMzQ2ZWQ5OGI2NGJlNTEwMjYxMDYxZjRlOTFhNWU0YmM2Iiwic2Vxbm8iOjQ5ODQ4MX0sInByZXYiOiI0NzM1YWRmYzBlODFlZTRiY2I4ZjZjYzdhNmE1ZWY5MWU0ODhlNGI1MGQzOWY1ZGVkZGJlOTNhNjI0ZGJjODY0Iiwic2Vxbm8iOjIxLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQGYBZEcOVR6swJDIJp+M1F4xrpvJ/NGoQ4k+Ff+VThHhIbeaMEwuQyeBvnk5Xu0HIeS0eYA74FixlQt2QDapfwCoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCN+6SBLq22WK8tO5rzIufXkFmDaL2zT9sDNnk5aBF6dKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/herrjemand
+
+==================================================================
