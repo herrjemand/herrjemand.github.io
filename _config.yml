@@ -1,0 +1,21 @@
+title            : Ackermann Yuriy
+email            : ackermann.yuriy@gmail.com
+copyleft         : | 
+        The contents of this website are 
+        © 2016 under the terms of the MIT License.
+
+# Accounts
+keybase_username : herrjemand
+github_username  : herrjemand
+twitter_username : herrjemand
+medium_username  : herrjemand
+linkedin_link    : https://nz.linkedin.com/in/yuriy-ackermann-4126b3a5
+
+# Build settings
+markdown         : kramdown
+highlighter      : pygments
+
+baseurl          : ""
+timezone         : Pacific/Auckland
+exclude          : [ CNAME, README.md, .gitignore ]
+# permalink        : / ## disables post output
