@@ -13,7 +13,7 @@ linkedin_link    : https://nz.linkedin.com/in/yuriy-ackermann-4126b3a5
 
 # Build settings
 markdown         : kramdown
-highlighter      : pygments
+highlighter      : rouge
 
 baseurl          : ""
 timezone         : Pacific/Auckland
