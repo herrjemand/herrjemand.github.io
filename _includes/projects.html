@@ -1,0 +1,21 @@
+{% for project in site.posts %}  
+
+    {% capture id %}{{ project.id | remove:'/' | downcase }}{% endcapture %}
+    
+    <article id="{{ id }}" class="panel project">
+        <header>
+            <h1>{{ project.title }}</h1>
+            <p>{{ project.info }}</p>
+        </header>
+        <section>
+            {{ project.content }}
+        </section>
+        <footer>
+
+            {% if project.github %}
+                <a href="https://github.com/{{ project.github }}" class="icon fa-github"></a>
+            {% endif %}
+        </footer>
+    </article>
+
+{% endfor %}

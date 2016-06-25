@@ -1,0 +1,42 @@
+<article id="work" class="panel">
+    <header>
+        <h2>Work</h2>
+    </header>
+    <p>
+        In my free time, I like doing something new and cool. Here is projects I've been doing in the past.
+    </p>
+
+
+    <section>
+        <div class="row">
+            {% if site.posts.size > 0 %}
+
+                {% for project in site.posts %}  
+                    {% capture id %}{{ project.id | remove:'/' | downcase }}{% endcapture %}
+                    <div class="4u 12u$(mobile) project-link">
+                        <a href="#{{ id }}" class="image fit panel-control">
+                            {% if project.placeholder %}
+                                <img src="images/pic01.jpg" alt="">
+                            {% else %}
+                                <img src="https://placehold.it/260x195/35383F?text={{ project.title | replace: ' ', '-' }}" alt="">
+                            {% endif %}
+
+                            {{ project.title }}
+                        </a>
+                    </div>
+
+                {% endfor %}
+
+            {% else %}
+                <p>Oooops. Nothing here yet. <a href="https://twitter.com/{{ twitter_username }}"></a>Stay tuned.</p>
+            {% endif %}
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            Check my <a href="https://github.com/{{ github_username }}">github</a> for more projects.
+        </p>
+    </footer>
+
+</article>
