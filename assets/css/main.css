@@ -1108,7 +1108,15 @@
 			color: grey;
 			/*color: black;*/
 		}
+		
+		.project section ul li {
+		    margin-bottom: 1em;
+		    list-style-type: circle;
+		}
 
+		.project section ul {
+		    padding-left: 1em;
+		}
 	#work a{
 		text-decoration: none;
 	}
