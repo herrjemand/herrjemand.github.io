@@ -44,21 +44,22 @@
 			})
 			.on('+desktop', function() {
 
-				var	$body = $('body'),
-					$main = $('#main'),
-					$panels = $main.find('.panel'),
-					$hbw = $('html,body,window'),
-					$footer = $('#footer'),
-					$wrapper = $('#wrapper'),
-					$panel_control_links = $('a.panel-control')
-					$nav = $('#nav'), $nav_links = $nav.find('a').add($panel_control_links),
-					$jumplinks = $('.jumplink'),
-					$form = $('form'),
-					panels = [],
-					activePanelId = null,
-					firstPanelId = null,
-					isLocked = false,
-					hash = window.location.hash.substring(1);
+				var	$body	 			  = $('body'),
+					$main	 			  = $('#main'),
+					$panels	 			  = $main.find('.panel'),
+					$hbw	 			  = $('html,body,window'),
+					$footer	 			  = $('#footer'),
+					$wrapper	 	      = $('#wrapper'),
+					$panel_control_links  = $('a.panel-control')
+					$nav 		          = $('#nav'), $nav_links = $nav.find('a').add($panel_control_links),
+					$jumplinks            = $('.jumplink'),
+					$form 		          = $('form'),
+					panels		          = [],
+					mainPanel   		  = 'me',
+					activePanelId         = null,
+					firstPanelId          = null,
+					isLocked 	          = false,
+					hash 		          = window.location.hash.substring(1);
 
 				if (skel.vars.touch) {
 
@@ -182,6 +183,24 @@
 						}
 
 					});
+
+					$window
+						.on('hashchange', function(e) {
+                            var hash = location.hash;
+
+                            if (hash.substring(0,1) == '#') {
+								e.preventDefault();
+								e.stopPropagation();
+
+								id = hash.substring(1);
+
+                                if (id in panels)
+									panels[id]._activate();
+							}else
+                                if (hash == '')
+                                    panels[mainPanel]._activate();
+
+						})
 
 				// Window.
 					$window
