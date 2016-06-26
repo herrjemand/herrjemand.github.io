@@ -11,6 +11,9 @@
             {{ project.content }}
         </section>
         <footer>
+            {% if project.web %}
+                <a href="{{ project.web }}" class="icon fa-link"></a>
+            {% endif %}
 
             {% if project.github %}
                 <a href="https://github.com/{{ project.github }}" class="icon fa-github"></a>
