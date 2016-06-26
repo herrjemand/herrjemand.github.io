@@ -1089,7 +1089,15 @@
 		.project section {
 			margin-bottom: 1.5em;
 		}
+	
+		.project footer {
+			margin-bottom: 0;
+		}
 
+		.project section img {
+			max-width: 100%;
+		}
+		
 		.project footer a {
 			font-size: 1.5em;
 			margin-right: 0.5em;
