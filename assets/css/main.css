@@ -1104,6 +1104,18 @@
 			color: black;
 		}
 
+		.project footer a.bullet:hover {
+			color: grey
+		}
+
+		.project footer a.bullet {
+			color: grey
+		}
+				
+		a.bullet:before {
+			content: "•";
+		}
+
 		.project footer a:hover {
 			color: grey;
 			/*color: black;*/
