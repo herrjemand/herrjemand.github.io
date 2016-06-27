@@ -81,7 +81,7 @@ The result was worth the hard work:
 
 New format made project better structured, easier to maintain, more useful and insanely more popular(we gained more than fifteen hundred stars in a week).
 
-I have gained a lot of knowledge about languages and countries, frankly improving my geography skills. I have improved my web parsing skills that I have used in many projects since then. I also gained a friend, and became maintainer of the Countries project.
+I have gained a lot of knowledge about languages and countries, frankly improving my geography skills. I have improved my web parsing skills that I have used in many projects since then. I also gained a friend, and became a maintainer of the Countries project.
 
 I am continuing bug fixing, solving issues, answering questions, opening pull requests and continuing develop this awesome project.
 
