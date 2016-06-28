@@ -11,6 +11,8 @@ twitter_username : herrjemand
 medium_username  : herrjemand
 linkedin_link    : https://nz.linkedin.com/in/yuriy-ackermann-4126b3a5
 
+pdf_location     : /assets/data/ackermann.yuriy.cv.latest.pdf
+
 # Build settings
 markdown         : kramdown
 highlighter      : rouge
