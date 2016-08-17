@@ -1099,6 +1099,7 @@
 		}
 		
 		.project footer a {
+			white-space: nowrap;
 			font-size: 1.5em;
 			margin-right: 0.5em;
 			color: black;
@@ -1158,6 +1159,7 @@
 	}
 
 		#footer a {
+			white-space: nowrap;
 			color: #ddd;
 			color: rgba(255, 255, 255, 0.65);
 			-moz-transition: color .25s ease-in-out;
